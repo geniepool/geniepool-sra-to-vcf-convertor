@@ -1,10 +1,10 @@
-#GeniePool_setup.sh
+# GeniePool_setup.sh
 Downloads and installs all prerequisites for downloading and preprocessing SRA data to VCF files, like a Docker container.
 
-#SRAs.csv
+# SRAs.csv
 SRA regarding whole-exome-sequencing data from obtained from SRA. the "Run" column values can be served as input for the GeniePool_sample_downloader.sh script.
 
-#GeniePool_sample_downloader.sh
+# GeniePool_sample_downloader.sh
 A script for downloading and preprocessing SRA data to VCF files.
 arguments:
 1 - SRA accession
